@@ -3,8 +3,16 @@
 #include <limits.h>
 #include <time.h>
 
-// Command Line: give it an int for number of values in the file and the file name
-// ./generate_file[0] n[1] divisor[2] file[3] (len 4)
+/*
+This program generates a file of random integers that can be used to sort.
+
+How to use:
+./executable[0] n[1] divisor[2] file[3]
+
+n - the amount of numbers to sort
+divisor - the value used to modulo the random value (ex. rand() % 100 will keep all values 0 - 99)
+file - the path to the file location
+*/
 
 int main (int argc, char** argv)
 {
