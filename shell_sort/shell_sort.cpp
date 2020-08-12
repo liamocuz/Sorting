@@ -51,8 +51,6 @@ O(1) auxillary
 
 */
 
-void swap(int*, int*);
-
 void shellSort(vector<int> &);
 
 int main (int argc, char** argv)
