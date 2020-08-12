@@ -44,7 +44,7 @@ O(n^2) comparisons
 O(n) swaps
 
 Worst Case Space:
-O(1) Auxillary
+O(1) auxillary
 */
 
 void swap(int*, int*);

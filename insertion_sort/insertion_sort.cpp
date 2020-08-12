@@ -48,8 +48,8 @@ O(n^2) comparisons
 O(n^2) swaps
 
 Worst Case Space:
-O(n) Total
-O(1) Auxillary
+O(n) total
+O(1) auxillary
 */
 
 void insertionSort(vector<int> &);
