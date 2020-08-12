@@ -88,12 +88,12 @@ int main (int argc, char** argv)
 void selectionSort(vector<int> &arr)
 {
     int n = arr.size();
-    int mindex;
+    int i, j, mindex;
 
-    for (int i = 0; i < n - 1; i++)
+    for (i = 0; i < n - 1; i++)
     {
         mindex = i;
-        for (int j = i + 1; j < n; j++)
+        for (j = i + 1; j < n; j++)
         {
             if (arr[j] < arr[mindex])
                 mindex = j;
