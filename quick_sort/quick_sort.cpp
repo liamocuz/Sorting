@@ -24,6 +24,9 @@ It consists of two parts. The partition function and the sorting function. The p
 is the main part of the whole algorithm, as it's implementation will result in the quality of the
 performance.
 
+This algorithm can be improved in a couple of ways. One is the median of three implementation,
+another is doing it non-recursively using a pushdown stack data structure.
+
 Some info about quick sort from Wikipedia:
 
 Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element 
