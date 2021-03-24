@@ -2,7 +2,7 @@
 A repo of different sorting algorithms written in C/C++.
 Directions to use all executables can be found within the program files.
 
-Currently have bubble, selection, and insertion, quick, and merge sorts.
+Currently have bubble, selection, insertion, quick, and merge sorts.
 
 Use generate_file.c to create text files of any length, filled with random values.
 
